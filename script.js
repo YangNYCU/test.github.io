@@ -9,7 +9,7 @@ let csvData = [];
 
 // 函數來加載 CSV 檔案
 function loadCSV() {
-  fetch('mrt line clean.csv') // 替換為您的 CSV 檔案路徑
+  fetch('Data/mrt line clean.csv') // 替換為您的 CSV 檔案路徑
     .then(response => response.text())
     .then(data => {
       csvData = parseCSV(data); // 解析 CSV 資料並存入 csvData
