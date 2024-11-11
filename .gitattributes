@@ -1,2 +1,6 @@
 Data filter=lfs diff=lfs merge=lfs -text
 Data/臺北捷運每日分時各站OD流量統計資料_202408.csv filter=lfs diff=lfs merge=lfs -text
+Data/mrt filter=lfs diff=lfs merge=lfs -text
+line filter=lfs diff=lfs merge=lfs -text
+clean.csv filter=lfs diff=lfs merge=lfs -text
+Data/mrt[[:space:]]line[[:space:]]clean.csv filter=lfs diff=lfs merge=lfs -text
